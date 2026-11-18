@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paul | Home Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <nav>
+    <a href="#home">Home</a><a href="#about">About Me</a><a href="#achievements">Achievements</a><a href="#contact">Contact Me</a>
+  </nav>
+  <form id="searchForm" class="search" role="search">
+    <input id="searchInput" type="text" aria-label="Search">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="6"/><path d="M15 15l6 6"/></svg></button>
+  </form>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-inner"><div class="logo"><img src="images/logo.png" alt="Logo"></div>
+  <h1 class="reveal">Welcome to My Home Page</h1>
+  <p class="hero-sub reveal">Know more about me by understanding<br>who's &nbsp;behind this vanilla face</p></div>
+</section>
+
+<section id="about" class="about">
+  <h2 class="title">About Me</h2>
+  <div class="about-row"><div class="about-photo reveal"><img src="images/profile.jpg" alt="Paul"></div>
+  <p class="about-text reveal">Hi, Im Paul but you can call me Paul for short,<br>Im 21 and currently taking a 4 year BSIT course<br>Im a great listener, communication skills, observation skills,<br>great initiator and also a risk taker.</p></div>
+  <a href="#achievements" class="know-more">Know More ?</a>
+</section>
+
+<section id="achievements" class="achv">
+  <h2 class="title">My Achievements</h2>
+  <div class="cards">
+    <article class="card reveal"><img src="images/achv1.jpg" alt="Polvoron business">
+      <p>This is my successful solo business a polvoron business. In the past year this is my personal source of income</p></article>
+    <article class="card reveal"><img src="images/achv2.jpg" alt="Graham balls">
+      <p>This one right here is also one of my successful and ongoing personal business. this is graham balls this is also my personal source of income while doing schooling.</p></article>
+    <article class="card wide reveal"><img src="images/achv3.jpg" alt="Banana chips">
+      <p>The last one is a collaboration business with my friend. this is a banana chips business, This one provide me a stable source of income even in a short time only</p></article>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="title">Contact Me</h2>
+  <div class="contact-grid"><p class="contact-msg reveal">Do you have a question or want to get in touch?, Leave a message below. Thanks !</p>
+  <form id="contactForm">
+    <textarea id="message" placeholder="Please enter here your concerns"></textarea>
+    <button type="submit" class="send">Send</button>
+  </form>
+  <div class="social-wrap"><a class="msg-here" href="#contact">or message me here</a>
+  <div class="socials">
+    <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8V6.5c0-.8.4-1 1-1h2V2h-3c-3 0-4 2-4 4.200V8H8v3.500h2V22h4v-10.500h2.800L17.300 8z"/></svg></a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm0 2a3 3 0 00-3 3v10a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3zm5 3.500a4.500 4.500 0 110 9 4.500 4.500 0 010-9zm0 2a2.500 2.500 0 100 5 2.500 2.500 0 000-5zM17.300 5.800a1.100 1.100 0 110 2.200 1.100 1.100 0 010-2.200z"/></svg></a>
+    <a href="https://x.com" target="_blank" rel="noopener" aria-label="Twitter / X"><svg viewBox="0 0 24 24"><path d="M21.500 3L2.500 10.500l5.500 2 2 6.500 3-3.500 5 3.800zM9 13l8.500-6-6.500 7.500-.5 3z"/></svg></a>
+  </div></div></div>
+</section>
+<div id="toast" class="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
